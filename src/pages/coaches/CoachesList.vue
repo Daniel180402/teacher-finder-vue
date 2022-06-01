@@ -1,12 +1,8 @@
 <template>
     <section>
-        filter
+        Filter
     </section>
     <section>
-        coaches
+        Teachers
     </section>
 </template>
-
-<style>
-    
-</style>
