@@ -1,5 +1,5 @@
 <template>
-    <li>
+    <div class="container">
         <h3>{{fullName}}</h3>
         <h4>{{rate}}/hour</h4>
         <div>
@@ -9,7 +9,7 @@
             <router-link :to="coachContactLink">Contact</router-link>
             <router-link :to="coachDetailsLink">View Details</router-link>
         </div>
-    </li>
+    </div>
 </template>
 
 <script>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-    li {
+    .container {
         margin: 1rem 0;
         border: 1px solid #424242;
         border-radius: 12px;
